@@ -90,7 +90,8 @@ var specialCharacters = ['@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')
                   // generates password
                   function generatePassword() {
                     var options = getPasswordOptions();
-                    
+                    // displays result
+                    var result = [];
                   
                     // types of chracters to include in password
                     var possibleCharacters = [];
